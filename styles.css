@@ -398,154 +398,155 @@ li:hover {
         width: 50%;
 
     }
+}
 
+
+.container_invitados-estelares_images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (max-width:400px) {
 
     .container_invitados-estelares_images {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+
+        flex-direction: column;
+        align-items: center;
     }
+}
 
 
 
-    @media screen and (max-width:400px) {
-
-        .container_invitados-estelares_images {
-
-            flex-direction: column;
-            align-items: center;
-        }
-    }
+.container_invitados-estelares_images_png {
+    width: 33.3%;
+    vertical-align: middle;
+    object-fit: cover;
+}
 
 
+@media screen and (max-width:400px) {
 
     .container_invitados-estelares_images_png {
-        width: 33.3%;
-        vertical-align: middle;
-        object-fit: cover;
+
+        width: 100vw;
+        margin: -1rem;
     }
-
-
-    @media screen and (max-width:400px) {
-
-        .container_invitados-estelares_images_png {
-
-            width: 100vw;
-            margin: -1rem;
-        }
-    }
+}
 
 
 
 
 
-    .container_nuestros-temas_general {
-        height: auto;
-    }
+.container_nuestros-temas_general {
+    height: auto;
+}
 
-    .nuestros-temas_title {
-        font-family: 'IBM Plex Sans', sans-serif;
-        color: #060A24;
-        font-size: 3rem;
-        font-weight: 500;
-        margin: 4rem 0px 4.3125rem 12.5rem;
-    }
+.nuestros-temas_title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #060A24;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 4rem 0px 4.3125rem 12.5rem;
+}
 
-    .container_nuestros-temas_icons {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 1.5rem;
-    }
+.container_nuestros-temas_icons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+}
 
-    .container_nuestros-temas_icon {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-weight: 600;
-        font-size: 1.5rem;
-        letter-spacing: 0;
-        color: #060A24;
-        width: 20%;
-    }
+.container_nuestros-temas_icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    color: #060A24;
+    width: 20%;
+}
 
-    .nuestros-temas_icon {
-        width: auto;
-        height: 6.5rem;
-        margin-bottom: 1.8125rem;
-    }
+.nuestros-temas_icon {
+    width: auto;
+    height: 6.5rem;
+    margin-bottom: 1.8125rem;
+}
 
-    .nuestros-temas_text {
-        text-align: center;
-        width: 50%;
+.nuestros-temas_text {
+    text-align: center;
+    width: 50%;
 
-    }
+}
 
-    .container_novedades {
-        height: 32.375rem;
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-        clip-path: polygon(0 27%, 100% 0%, 100% 100%, 0 100%);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.container_novedades {
+    height: 32.375rem;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 27%, 100% 0%, 100% 100%, 0 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .novedades_title {
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-weight: 300;
-        font-size: 3rem;
-        color: #FFFFFF;
-        text-align: center;
-        padding-top: 13.3125rem;
-    }
+.novedades_title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 13.3125rem;
+}
 
-    .novedades_btn {
-        background: linear-gradient(225deg, #00F0B8, #00F0B8);
-        border: none;
-        width: 21.5625rem;
-        height: 3.5rem;
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-weight: 500;
-        font-size: 1.125rem;
-        margin: 3.5rem 0 4.1875rem 0;
-    }
+.novedades_btn {
+    background: linear-gradient(225deg, #00F0B8, #00F0B8);
+    border: none;
+    width: 21.5625rem;
+    height: 3.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin: 3.5rem 0 4.1875rem 0;
+}
 
-    .novedades_btn:hover {
-        background: linear-gradient(225deg, #0000FE, #00F0B8);
-        color: #ffffff;
-        transition: all 0.3s ease;
-        cursor: pointer;
-    }
+.novedades_btn:hover {
+    background: linear-gradient(225deg, #0000FE, #00F0B8);
+    color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
 
-    .container_footer {
+.container_footer {
 
-        height: 5.9375rem;
-        font-family: 'IBM Plex Mono', monospace;
-        color: #060A24;
-        letter-spacing: 0;
-        font-size: 1rem;
-        line-height: 1.75rem;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 6.25rem;
-        align-items: center;
-    }
+    height: 5.9375rem;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #060A24;
+    letter-spacing: 0;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6.25rem;
+    align-items: center;
+}
 
-    .footer_icons_group {
-        width: 14.625rem;
-        display: flex;
-        justify-content: space-between;
-    }
+.footer_icons_group {
+    width: 14.625rem;
+    display: flex;
+    justify-content: space-between;
+}
 
-    .footer_icon {
-        width: 1.125rem;
-        height: auto;
-        color: #060A24;
-    }
+.footer_icon {
+    width: 1.125rem;
+    height: auto;
+    color: #060A24;
+}
 
-    .footer_icon:hover {
-        cursor: pointer;
-        font-size: 1.5625rem;
-    }
+.footer_icon:hover {
+    cursor: pointer;
+    font-size: 1.5625rem;
+}
