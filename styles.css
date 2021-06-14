@@ -46,13 +46,19 @@ body {
 }
 
 
-.header_navbar_container {
+.header_navbar_container_desktop {
 
     display: flex;
     justify-content: space-around;
     align-content: center;
     width: 50%;
 }
+
+.menumobile {
+    display: none;
+}
+
+
 
 .header_navbar_list {
     width: 100%;
@@ -145,7 +151,7 @@ li:hover {
         display: none;
     }
 
-    .header_navbar_container {
+    .header_navbar_container_desktop {
         display: none;
     }
 
@@ -679,4 +685,6 @@ li:hover {
 .footer_icon:hover {
     cursor: pointer;
     font-size: 1.5625rem;
+    color: #00F0B8;
+    transition: all 0.3s ease;
 }
