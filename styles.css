@@ -18,12 +18,6 @@ body {
     box-sizing: border-box;
 }
 
-@media (min-width: 200px) and (max-width:768px) {
-    :root {
-        font-size: 14px;
-    }
-}
-
 .header_container {
     display: flex;
     justify-content: space-between;
@@ -31,23 +25,18 @@ body {
     width: 100vw;
     height: 5rem;
     padding: 2.5625rem 4.375rem;
-
 }
-
 
 .espacio {
     height: 4.5rem;
 }
 
 .header_image {
-
-    width: 2.25rem;
-
+    width: 36px;
 }
 
 
 .header_navbar_container_desktop {
-
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -57,8 +46,6 @@ body {
 .menumobile {
     display: none;
 }
-
-
 
 .header_navbar_list {
     width: 100%;
@@ -70,7 +57,6 @@ body {
     font-weight: 400;
     font-size: 1rem;
 }
-
 
 a {
     text-decoration: none;
@@ -88,7 +74,6 @@ li:hover {
     transition: all 0.3s ease;
 }
 
-
 .title {
     width: 100%;
     height: auto;
@@ -98,20 +83,7 @@ li:hover {
     font-weight: 500;
     font-size: 4rem;
     letter-spacing: 0;
-
 }
-
-
-@media (min-width: 200px) and (max-width:768px) {
-    .title {
-        padding-left: 0;
-        margin: 0 1.1428571rem 0.51142857rem;
-        width: 70%;
-        font-size: 2.57142857rem;
-        line-height: 3rem;
-    }
-}
-
 
 .dot_blue {
     color: #0000EC;
@@ -130,48 +102,6 @@ li:hover {
     width: 60%
 }
 
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .subtitle {
-
-        width: 100%;
-        padding: 5%;
-        font-size: 1rem;
-        display: block;
-        line-height: 1.3rem;
-    }
-}
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .espacio {
-        display: none;
-    }
-
-    .header_navbar_container_desktop {
-        display: none;
-    }
-
-    .header_image {
-
-        width: 24px;
-        height: auto;
-        position: relative;
-        right: 6%;
-
-    }
-
-    .header_container {
-        width: 100vw;
-        padding: 10%;
-    }
-}
-
-
-
 .button_conocemas {
     background: linear-gradient(225deg, #00F0B8, #00F0B8);
     border: none;
@@ -184,15 +114,6 @@ li:hover {
     margin-top: 3.5rem;
     margin-left: 12.5rem;
 }
-
-@media (min-width: 200px) and (max-width:768px) {
-    .button_conocemas {
-        margin: 0;
-        width: 90%;
-        margin: 4% 5% 4% 5%;
-    }
-}
-
 
 .button_conocemas:hover {
     background: linear-gradient(225deg, #0000FE, #00F0B8);
@@ -209,15 +130,6 @@ li:hover {
     position: relative;
 }
 
-
-@media (min-width: 200px) and (max-width:768px) {
-    .cards_episodes_container {
-        clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
-        height: 67.125rem;
-    }
-}
-
-
 .cards_episodes_title {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 3rem;
@@ -226,15 +138,6 @@ li:hover {
     top: 13.125rem;
     left: 12.5rem;
     color: white;
-}
-
-
-@media (min-width: 200px) and (max-width:768px) {
-    .cards_episodes_title {
-        font-size: 2.57142857rem;
-        top: 4.28571429rem;
-        left: 1.14285714rem;
-    }
 }
 
 .cards_episodes_group {
@@ -248,32 +151,11 @@ li:hover {
 }
 
 
-@media (min-width: 200px) and (max-width:768px) {
-
-    .cards_episodes_group {
-        top: 9rem;
-
-    }
-}
-
-
-
 .cards_episode_single {
     width: 40%;
     cursor: pointer;
     margin: 2.25rem;
 }
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .cards_episode_single {
-        width: 80%;
-        height: 13.5714rem;
-        margin: -5px;
-    }
-}
-
 
 .container_dedondevenimos {
     width: 100%;
@@ -287,34 +169,12 @@ li:hover {
     margin-bottom: -5%;
 }
 
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .container_dedondevenimos {
-        flex-direction: column;
-        margin-top: 13rem;
-    }
-}
-
-
-
 .dedondevenimos_image {
     height: 41.25rem;
     width: auto;
     position: relative;
     top: -5%;
 }
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .dedondevenimos_image {
-        align-items: center;
-
-
-    }
-}
-
 
 .dedondevenimos_title {
 
@@ -325,24 +185,7 @@ li:hover {
     height: 5.625rem;
     position: relative;
     left: 20%;
-
 }
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .dedondevenimos_title {
-        font-size: 2.57142857rem;
-        width: 50%;
-        height: 6rem;
-        left: 10%;
-        line-height: 3rem;
-
-    }
-}
-
-
-
 
 .dedondevenimos_paragraph {
 
@@ -354,30 +197,7 @@ li:hover {
     line-height: 1.5rem;
     position: relative;
     left: 20%;
-
-
 }
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-
-    .dedondevenimos_paragraph {
-
-        width: 90%;
-        font-size: 1rem;
-        position: relative;
-        align-content: center;
-        left: 10%;
-        margin-top: 2rem;
-        display: block;
-
-    }
-}
-
-
-
-
 
 .container_invitados-estelares {
     width: 100vw;
@@ -391,41 +211,11 @@ li:hover {
     margin: 0rem 0 2.25rem 12.5rem;
 }
 
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .invitados_title {
-
-        margin: 10rem 0 2.25rem 1rem;
-        font-size: 2.57142857rem;
-        padding-top: 2.375rem;
-        margin-left: 10%;
-        width: 50%;
-        line-height: 3rem;
-
-    }
-}
-
-
 .container_invitados-estelares_images {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .container_invitados-estelares_images {
-
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-
 
 .container_invitados-estelares_images_png {
     width: 33.3%;
@@ -433,26 +223,9 @@ li:hover {
     object-fit: cover;
 }
 
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .container_invitados-estelares_images_png {
-
-        width: 100vw;
-        margin: -1rem;
-    }
-}
-
-
-
-
-
 .container_nuestros-temas_general {
     height: auto;
 }
-
-
-
 
 .nuestros-temas_title {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -462,22 +235,6 @@ li:hover {
     margin: 4rem 0px 4.3125rem 12.5rem;
 }
 
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .nuestros-temas_title {
-
-        margin: 4rem 0 0.25rem 1rem;
-        font-size: 2.57142857rem;
-        margin-left: 10%;
-        width: 70%;
-        line-height: 3rem;
-    }
-}
-
-
-
 .container_nuestros-temas_icons {
     display: flex;
     align-content: center;
@@ -485,24 +242,6 @@ li:hover {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.5rem;
 }
-
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .container_nuestros-temas_icons {
-
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 1.5rem;
-    }
-}
-
-
 
 .container_nuestros-temas_icon {
     display: flex;
@@ -516,48 +255,16 @@ li:hover {
     width: 20%;
 }
 
-
-@media (min-width: 200px) and (max-width:768px) {
-    .container_nuestros-temas_icon {
-
-        font-size: 1.7142857rem;
-        color: #060A24;
-        width: 100%;
-    }
-}
-
-
 .nuestros-temas_icon {
     width: auto;
     height: 6.5rem;
     margin-bottom: 1.8125rem;
 }
 
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .nuestros-temas_icon {
-        margin-bottom: 4%;
-        margin-top: 13%;
-    }
-}
-
 .nuestros-temas_text {
     text-align: center;
     width: 50%;
 }
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-
-    .nuestros-temas_text {
-        text-align: center;
-        width: 70%;
-    }
-}
-
 
 .container_novedades {
     height: 32.375rem;
@@ -568,20 +275,6 @@ li:hover {
     align-items: center;
 }
 
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .container_novedades {
-        height: 24.3571428571rem;
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-        clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
-        margin-top: 10%;
-
-    }
-}
-
-
 .novedades_title {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
@@ -590,22 +283,6 @@ li:hover {
     text-align: center;
     padding-top: 13.3125rem;
 }
-
-
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .novedades_title {
-        font-size: 2.57142857rem;
-        text-align: center;
-        padding-top: 15%;
-        width: 50%;
-    }
-}
-
-
-
 
 .novedades_btn {
     background: linear-gradient(225deg, #00F0B8, #00F0B8);
@@ -617,21 +294,6 @@ li:hover {
     font-size: 1.125rem;
     margin: 3.5rem 0 4.1875rem 0;
 }
-
-
-
-@media (min-width: 200px) and (max-width:768px) {
-
-
-    .novedades_btn {
-
-
-        height: 3.428571rem;
-        font-size: 1.142857rem;
-        margin: 8% 0 0 0;
-    }
-}
-
 
 .novedades_btn:hover {
     background: linear-gradient(225deg, #0000FE, #00F0B8);
@@ -654,22 +316,6 @@ li:hover {
     align-items: center;
 }
 
-
-@media (min-width: 200px) and (max-width:768px) {
-
-    .container_footer {
-        display: flex;
-        flex-direction: column;
-        padding: 8% 8%;
-        align-items: center;
-        height: 8.642857rem;
-    }
-
-
-}
-
-
-
 .footer_icons_group {
     width: 14.625rem;
     display: flex;
@@ -687,4 +333,284 @@ li:hover {
     font-size: 1.5625rem;
     color: #00F0B8;
     transition: all 0.3s ease;
+}
+
+
+@media (min-width: 200px) and (max-width:768px) {
+
+    :root {
+        font-size: 14px;
+    }
+
+    .header_image_mobile {
+        display: none;
+    }
+
+
+    .menumobile ul li {
+        width: 100vw;
+        padding-left: 10px;
+        line-height: 40px;
+        background-color: #0000FF;
+        color: white;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1rem;
+    }
+
+
+    .menumobile ul {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        transition: all 0.8s ease;
+        transform: translateX(100vw);
+        list-style-type: none;
+    }
+
+    .icon-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-label {
+        width: 50px;
+        margin-right: -35px;
+    }
+
+
+    #burger-button {
+        visibility: hidden;
+        background-color: white;
+    }
+
+    #burger-button:checked~ul {
+        transform: translateX(0);
+    }
+
+
+    .line {
+        width: 18px;
+        height: 2px;
+        border-radius: 2px;
+        background-color: black;
+        transition: all 0.1s linear;
+        margin-bottom: 4px;
+        transform-origin: left;
+    }
+
+    #burger-button:checked+label .line-top {
+        transform: rotate(45deg);
+    }
+
+    #burger-button:checked+label .line-middle {
+        background-color: white;
+    }
+
+    #burger-button:checked+label .line-low {
+        transform: rotate(-45deg);
+    }
+
+
+    .menu-button {
+        color: white;
+        text-decoration: none;
+    }
+
+    .menumobile {
+        display: block;
+    }
+
+    .menumobile ul {
+        left: 0;
+    }
+
+
+    .title {
+        padding-left: 0;
+        margin: 0 1.1428571rem 0.51142857rem;
+        width: 70%;
+        font-size: 2.57142857rem;
+        line-height: 3rem;
+    }
+
+
+    .subtitle {
+        width: 100%;
+        padding: 5%;
+        font-size: 1rem;
+        display: block;
+        line-height: 1.3rem;
+    }
+
+    .espacio {
+        display: none;
+    }
+
+    .header_navbar_container_desktop {
+        display: none;
+    }
+
+    .header_image {
+        width: 24px;
+        height: auto;
+        position: relative;
+        right: 6%;
+
+    }
+
+    .header_container {
+        width: 100vw;
+        padding: 10%;
+    }
+
+    .button_conocemas {
+        margin: 0;
+        width: 90%;
+        margin: 4% 5% 4% 5%;
+    }
+
+
+    .cards_episodes_container {
+        clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
+        height: 67.125rem;
+    }
+
+
+
+    .cards_episodes_title {
+        font-size: 2.57142857rem;
+        top: 4.28571429rem;
+        left: 1.14285714rem;
+    }
+
+    .cards_episodes_group {
+        top: 9rem;
+    }
+
+    .cards_episode_single {
+        width: 80%;
+        height: 13.5714rem;
+        margin: -5px;
+    }
+
+
+    .container_dedondevenimos {
+        flex-direction: column;
+        margin-top: 13rem;
+    }
+
+
+    .dedondevenimos_image {
+        align-items: center;
+    }
+
+
+    .dedondevenimos_title {
+        font-size: 2.57142857rem;
+        width: 50%;
+        height: 6rem;
+        left: 10%;
+        line-height: 3rem;
+    }
+
+    .dedondevenimos_paragraph {
+        width: 90%;
+        font-size: 1rem;
+        position: relative;
+        align-content: center;
+        left: 10%;
+        margin-top: 2rem;
+        display: block;
+    }
+
+    .invitados_title {
+        margin: 10rem 0 2.25rem 1rem;
+        font-size: 2.57142857rem;
+        padding-top: 2.375rem;
+        margin-left: 10%;
+        width: 50%;
+        line-height: 3rem;
+    }
+
+
+    .container_invitados-estelares_images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .container_invitados-estelares_images_png {
+        width: 100vw;
+        margin: -1rem;
+    }
+
+
+    .nuestros-temas_title {
+        margin: 4rem 0 0.25rem 1rem;
+        font-size: 2.57142857rem;
+        margin-left: 10%;
+        width: 70%;
+        line-height: 3rem;
+    }
+
+    .container_nuestros-temas_icons {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+
+
+    .container_nuestros-temas_icon {
+        font-size: 1.7142857rem;
+        color: #060A24;
+        width: 100%;
+    }
+
+
+    .nuestros-temas_icon {
+        margin-bottom: 4%;
+        margin-top: 13%;
+    }
+
+
+    .nuestros-temas_text {
+        text-align: center;
+        width: 70%;
+    }
+
+
+    .container_novedades {
+        height: 24.3571428571rem;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+        margin-top: 10%;
+    }
+
+
+    .novedades_title {
+        font-size: 2.57142857rem;
+        text-align: center;
+        padding-top: 15%;
+        width: 50%;
+    }
+
+
+    .novedades_btn {
+        height: 3.428571rem;
+        font-size: 1.142857rem;
+        margin: 8% 0 0 0;
+    }
+
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        padding: 8% 8%;
+        align-items: center;
+        height: 8.642857rem;
+    }
 }
